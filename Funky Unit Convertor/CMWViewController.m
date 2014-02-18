@@ -17,11 +17,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSLog(@"Hello World");
+    NSLog(@"Hello Agian");
 	// Do any additional setup after loading the view, typically from a nib.
     int x = 5;
     int y = 20;
     int z = -2;
     
+    
+    NSLog(@"%i", x);
     //operators include: + - * /
     
     int additionAnswer  = x + y;
@@ -32,12 +37,15 @@
     
     float distanceToTravel = heightOfEverset - heightOfEverestBaseCamp;
     distanceToTravel = distanceToTravel - 1000;
+    
+    NSLog(@"%f", heightOfEverset);
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    NSLog(@"Did recieve memory warning. loading still");
 }
 
 @end
